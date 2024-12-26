@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-import Newspaper from 'E:/project/src/Assets/KMJU LOGO.svg'
+import Newspaper from '/src/Assets/KMJU LOGO.svg'
 import { Form, Link } from 'react-router-dom';
 
 export default function Navbar() {
