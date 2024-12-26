@@ -1,0 +1,20 @@
+name = "kmju-website"
+type = "javascript" # or "webpack", "service", etc., depending on your project setup.
+
+[build]
+command = "npm run build" # Change this to your build command if different.
+cwd = "."                # Specify the current working directory (optional).
+upload.format = "modules" # Use "modules" if your project uses ES module syntax.
+
+[env]
+NODE_VERSION = "18.18.0"
+
+[worker]
+compatibility_date = "2024-12-26" # Update to today's date or your compatibility date.
+
+[account]
+id = "<your-cloudflare-account-id>" 
+
+[site]
+bucket = "dist"       
+entry-point = "src"   
